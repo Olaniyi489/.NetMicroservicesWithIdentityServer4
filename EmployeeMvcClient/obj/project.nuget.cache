@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "dgSpecHash": "6lIxzvEc55sagKBOqaKPbAjaAMkVEZ6fvjgV2SjBekgU83Q/lR38qPo13JdOW+EPjQZy22XPoYltTJgSydxLsQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Decagon\\source\\repos\\EmployeeMicroservice\\EmployeeMvcClient\\EmployeeMvcClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Decagon\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.12\\microsoft.entityframeworkcore.sqlserver.6.0.12.nupkg.sha512",
+    "C:\\Users\\Decagon\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.12\\microsoft.entityframeworkcore.tools.6.0.12.nupkg.sha512",
+    "C:\\Users\\Decagon\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\6.0.11\\microsoft.visualstudio.web.codegeneration.design.6.0.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.SqlServer 6.0.12 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.EntityFrameworkCore.SqlServer 6.0.12 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Tools 6.0.12 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.EntityFrameworkCore.Tools 6.0.12 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.VisualStudio.Web.CodeGeneration.Design 6.0.11 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.VisualStudio.Web.CodeGeneration.Design 6.0.11 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
